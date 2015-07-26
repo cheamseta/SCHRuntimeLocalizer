@@ -17,7 +17,19 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
+  
+  // using observer to trigger all the tools which already loaded
+  // this is optional
+  [[NSNotificationCenter defaultCenter] addObserver:self
+                                           selector:@selector(changeLangauage)
+                                               name:@"TestNotification"
+                                             object:nil];
 
+  
+}
+
+- (void)changeLangauage {
+  [self.sampleLabel setText:[RuntimeLocalizer localizer:@"sample"]];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -27,11 +39,18 @@
 
 - (IBAction)englishAction:(id)sender {
   [RuntimeLocalizer setLangauge:1];
-  [self.sampleLabel setText:[RuntimeLocalizer localizer:@"sample"]];
+  
+  [[NSNotificationCenter defaultCenter]
+   postNotificationName:@"TestNotification"
+   object:self];
+  
 }
 - (IBAction)khmerAction:(id)sender {
   [RuntimeLocalizer setLangauge:2];
-  [self.sampleLabel setText:[RuntimeLocalizer localizer:@"sample"]];
+  
+  [[NSNotificationCenter defaultCenter]
+   postNotificationName:@"TestNotification"
+   object:self];
 }
 
 @end

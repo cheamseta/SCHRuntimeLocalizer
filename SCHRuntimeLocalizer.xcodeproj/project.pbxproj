@@ -14,6 +14,8 @@
 		FD35B2841B64EBC10099E78D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD35B2831B64EBC10099E78D /* Images.xcassets */; };
 		FD35B2871B64EBC10099E78D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD35B2851B64EBC10099E78D /* LaunchScreen.xib */; };
 		FD35B2931B64EBC20099E78D /* SCHRuntimeLocalizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD35B2921B64EBC20099E78D /* SCHRuntimeLocalizerTests.m */; };
+		FD8324221B64F23500AD1DC7 /* RuntimeLocalizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8324211B64F23500AD1DC7 /* RuntimeLocalizer.m */; };
+		FD8324281B64F30600AD1DC7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD8324241B64F30600AD1DC7 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		FD35B28C1B64EBC20099E78D /* SCHRuntimeLocalizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCHRuntimeLocalizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD35B2911B64EBC20099E78D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD35B2921B64EBC20099E78D /* SCHRuntimeLocalizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCHRuntimeLocalizerTests.m; sourceTree = "<group>"; };
+		FD8324201B64F23500AD1DC7 /* RuntimeLocalizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeLocalizer.h; sourceTree = "<group>"; };
+		FD8324211B64F23500AD1DC7 /* RuntimeLocalizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeLocalizer.m; sourceTree = "<group>"; };
+		FD8324251B64F30600AD1DC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FD8324261B64F30600AD1DC7 /* km */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = km; path = km.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,8 @@
 				FD35B2801B64EBC10099E78D /* Main.storyboard */,
 				FD35B2831B64EBC10099E78D /* Images.xcassets */,
 				FD35B2851B64EBC10099E78D /* LaunchScreen.xib */,
+				FD8324201B64F23500AD1DC7 /* RuntimeLocalizer.h */,
+				FD8324211B64F23500AD1DC7 /* RuntimeLocalizer.m */,
 				FD35B2761B64EBC10099E78D /* Supporting Files */,
 			);
 			path = SCHRuntimeLocalizer;
@@ -96,6 +104,7 @@
 		FD35B2761B64EBC10099E78D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FD8324231B64F30600AD1DC7 /* Localizable */,
 				FD35B2771B64EBC10099E78D /* Info.plist */,
 				FD35B2781B64EBC10099E78D /* main.m */,
 			);
@@ -117,6 +126,14 @@
 				FD35B2911B64EBC20099E78D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD8324231B64F30600AD1DC7 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				FD8324241B64F30600AD1DC7 /* Localizable.strings */,
+			);
+			path = Localizable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +199,7 @@
 			knownRegions = (
 				en,
 				Base,
+				km,
 			);
 			mainGroup = FD35B26A1B64EBC10099E78D;
 			productRefGroup = FD35B2741B64EBC10099E78D /* Products */;
@@ -200,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD35B2821B64EBC10099E78D /* Main.storyboard in Resources */,
+				FD8324281B64F30600AD1DC7 /* Localizable.strings in Resources */,
 				FD35B2871B64EBC10099E78D /* LaunchScreen.xib in Resources */,
 				FD35B2841B64EBC10099E78D /* Images.xcassets in Resources */,
 			);
@@ -221,6 +240,7 @@
 			files = (
 				FD35B27F1B64EBC10099E78D /* ViewController.m in Sources */,
 				FD35B27C1B64EBC10099E78D /* AppDelegate.m in Sources */,
+				FD8324221B64F23500AD1DC7 /* RuntimeLocalizer.m in Sources */,
 				FD35B2791B64EBC10099E78D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +278,15 @@
 				FD35B2861B64EBC10099E78D /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		FD8324241B64F30600AD1DC7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD8324251B64F30600AD1DC7 /* en */,
+				FD8324261B64F30600AD1DC7 /* km */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -299,7 +328,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -336,7 +365,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -416,6 +445,7 @@
 				FD35B2981B64EBC20099E78D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD35B2991B64EBC20099E78D /* Build configuration list for PBXNativeTarget "SCHRuntimeLocalizerTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +454,7 @@
 				FD35B29B1B64EBC20099E78D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -32,5 +32,5 @@ I used two languages as a sample, Khmer and English. You can modify it:
 
 ## License
 
-LGAlertView is released under the MIT license. See [LICENSE](https://raw.githubusercontent.com/Friend-LGA/LGAlertView/master/LICENSE) for details.
+LGAlertView is released under the MIT license. See for details.
 

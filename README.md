@@ -1,6 +1,6 @@
 # SCHRuntimeLocalizer
 
-Chaning lanaguage on runtime would be awesome and provide the best experience to users. Therefore, I have create this library to make it so easy for you.
+Changing language on runtime would be awesome and provides the best experience to users. Therefore, I have created this library to help you getting started with mutiple localization app.
 
 This library is dedicated for "អូនស្អាតរបស់បង"
 

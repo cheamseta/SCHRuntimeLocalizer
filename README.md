@@ -6,8 +6,8 @@ This library is dedicated for "អូនស្អាតរបស់បង"
 
 ## Preview
 
-<img src="https://dl.dropboxusercontent.com/u/46009114/Github/localizer1.png" width="230"/>
-<img src="https://dl.dropboxusercontent.com/u/46009114/Github/localizer2.png" width="230"/>
+<img src="https://firebasestorage.googleapis.com/v0/b/hubgit-cea1c.appspot.com/o/localization1.png?alt=media&token=21c962e1-c830-45c1-9da2-46690e2b16ca" width="230"/>
+<img src="https://firebasestorage.googleapis.com/v0/b/hubgit-cea1c.appspot.com/o/localization2.png?alt=media&token=30f71da6-07dc-46ae-811a-1628190a312b" width="230"/>
 
 ## Usage
 

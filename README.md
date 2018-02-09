@@ -3,6 +3,11 @@
 Chaning lanaguage on runtime would be awesome and provide the best experience to users. Therefore, I have create this library to make it so easy for you.
 
 This library is dedicated for "អូនស្អាតរបស់បង"
+<h3>My Linkin</h3>
+<a target="_blank" href="http://www.linkedin.com/in/cheamseta"><img width="100px" src="https://cdn4.iconfinder.com/data/icons/social-media-pro-icons/1080/Linkin-01-128.png"/></a>
+
+<h3>My Profile</h3>
+<a target="_blank" href="http://cheamseta.herokuapp.com/"><img width="100px" src="https://graph.facebook.com/10205416160197106/picture?type=large&return_ssl_resources=1"/></a>
 
 ## Preview
 
